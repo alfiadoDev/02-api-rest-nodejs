@@ -11,7 +11,7 @@
     "lint": "eslint src --ext .ts --fix",
     "knex": "node --import tsx ./node_modules/.bin/knex",
     "test": "vitest",
-    "build": "tsup src"
+    "build": "tsup --out-dir build src"
   },
   "keywords": [],
   "author": "",
